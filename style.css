@@ -529,7 +529,7 @@ section{
 
  }
  @media(max-width:895px){
-   @menu-icon{
+   #menu-icon{
     display: block;
    }
   .navbar{
