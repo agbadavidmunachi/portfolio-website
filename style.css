@@ -51,6 +51,14 @@ span{
   color : var(--main-color);
 }
   }
+.navbar a{
+  font-size: 1.8rem;
+  color: black;
+  margin-left: 4rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom :3px solid transparent;
+}
 
 .navbar a:hover,
 .navbar a.active{
