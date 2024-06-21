@@ -50,6 +50,8 @@ body{
 span{
   color : var(--main-color);
 }
+  }
+
 .navbar a{
   font-size: 1.8rem;
   color: black;
