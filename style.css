@@ -41,7 +41,7 @@ body{
   font-size: 3rem;
   color: var(--text-color);
   font-weight: 800;
-  cursor: pointer;.
+  cursor: pointer;
   transition: 0.3s ease;
 }
 .logo:hover{
@@ -490,9 +490,19 @@ section{
   text-align: center;
 
 }
+.footer ul li a {
+  color:white;
+  border-bottom:3px solid transparent;
+  transition :0.3s;
+  
+}
 .footer ul li a:hover{
   border-bottom: 3px solid white;
 
+}
+.footer ul li {
+  display :inline-block;
+  padding:0 15px;
 }
 .footer .copyright{
   margin-top: 50px;
@@ -505,7 +515,7 @@ section{
   html{
     font-size: 55%;
   }
-  .projets-container{
+  .projects-container{
     padding-bottom: 7rem;
     grid-template-columns: repeat(1,1fr);
     margin: 0 5rem;
